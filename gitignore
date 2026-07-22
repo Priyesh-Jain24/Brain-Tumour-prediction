@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Trained models & checkpoints (large binaries — don't commit) ---
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+best_cnn.keras
+best_efficientnet.keras
+baseline_cnn_final.keras
+efficientnet_v2b0_final.keras
+
+# --- Dataset (don't commit raw data — download via Kaggle instead) ---
+data/
+dataset/
+Training/
+Testing/
+*.zip
+
+# --- Kaggle credentials — NEVER commit this ---
+kaggle.json
+.kaggle/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Colab ---
+.colab/
+
+# --- Logs / misc ---
+*.log
+.env
